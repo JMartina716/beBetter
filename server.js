@@ -8,6 +8,7 @@ const app = express();
 connectDB();
 
 console.log("To update the branch")
+console.log("To update the branch again")
 
 app.get('/', (req, res) => res.send('Hello world!'));
 
