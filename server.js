@@ -7,6 +7,8 @@ const app = express();
 // Connect Database
 connectDB();
 
+console.log("To update the branch")
+
 app.get('/', (req, res) => res.send('Hello world!'));
 
 const port = process.env.PORT || 8082;
